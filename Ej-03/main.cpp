@@ -1,7 +1,12 @@
 #include <iostream>
 #include "../Pila/Pila.h"
 
+using namespace std;
+
 int main() {
-    std::cout << "Ejercicio 03/03\n" << std::endl;
+    Pila<int> a;
+    a.push(4);
+    cout << a.peek() << '\n';
+
     return 0;
 }
